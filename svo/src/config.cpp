@@ -1,3 +1,4 @@
+
 // This file is part of SVO - Semi-direct Visual Odometry.
 //
 // Copyright (C) 2014 Christian Forster <forster at ifi dot uzh dot ch>
@@ -79,7 +80,7 @@ Config::Config() :
     subpix_n_iter(10),
     max_n_kfs(0),
     img_imu_delay(0.0),
-    max_fts(120),
+    max_fts(180), //Long: more feature points for more robustness max_fts(120),
     quality_min_fts(50),
     quality_max_drop_fts(40)
 #endif
